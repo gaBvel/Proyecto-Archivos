@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat black', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container-login{
+  width: 900px;
+  height: 550px;
+  background-color: white;
+  border-radius: 35px;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+}
+
+.login-left{
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+p{
+  font-size: 19px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border:1px solid #6F7271;
+  font-size: 17px;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  border-radius: 60px;
+  border: 1px solid #6F7271;
+  font-size: 19px;
+  cursor: pointer;
+  background-color: #691b31;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover{
+  background-color: #bc955b;
+  border: 2px solid #6F7271;
+  color: white;
+}
+
+.login-right{
+  width: 50%;
+  background-color: #691b31;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+img{
+  width: 350px;
+}
